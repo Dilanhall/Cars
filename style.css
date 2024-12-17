@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    background-color: grey;
+}
+
+
+header{
+    margin: 32px;
+}
+.links{
+
+    display: inline-block;
+    
+}
+h1{
+    
+    font-family: 'Bebas Neue', sans-serif;
+    display: inline-block;
+}
+.links li{
+    font-size: 25px;
+    margin: 0px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+li a{
+   font-family: 'Genos', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.jobs{
+    border-bottom: solid black;
+}
+.card img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+.card{
+    box-sizing:border-box;
+    padding: 16px;
+    width: 49%;
+    display: inline-block;
+}
+.gallery{
+    padding: 15px;
+}
+.card img:hover{
+    opacity: 0.9;
+}
+.card h2{
+    font-weight: 100;
+    font-family: 'Bebas Neue';
+    margin: 8px 0px 16px 0px;
+}
+.why{
+    width: 50%;
+    margin: 100px 200px;
+}
+.blog{
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Genos';
+}
+.message{
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom:  solid darkgray;
+   
+    font-size: 50px;
+    font-weight: 1000;
+    font-style: italic;
+    color: darkred;
+    font-size: xxx-large;
+}
+p{
+    margin: 0;
+    font-weight: 600;
+}
+.class {
+    display: none;
+    }
+    @media screen and (max-width:900px){
+    .class{
+    display: block;
+    }
+    }
